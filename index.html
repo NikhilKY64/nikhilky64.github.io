@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil - Android Developer</title>
+    <meta name="description" content="Portfolio of Nikhil, an independent Android developer creating simple, powerful, and beautiful applications.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="nav-logo">Nikhil<span class="highlight">Apps</span></div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="about">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm Nikhil 👋</h1>
+                <h2>Independent <span class="highlight">Android Developer</span></h2>
+                <p>I build clean, simple, and powerful applications for Android. Every app is designed with a focus on modern aesthetics, smooth performance, and putting the user first.</p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="https://github.com/yourusername" target="_blank" class="btn btn-secondary">
+                        <i class="fa-brands fa-github"></i> GitHub Profile
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dev-card">
+                    <div class="dev-avatar">
+                        <i class="fa-brands fa-android"></i>
+                    </div>
+                    <div class="dev-stats">
+                        <div class="stat">
+                            <span class="stat-num">1+</span>
+                            <span class="stat-label">Published Apps</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Native Kotlin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="glow-bg"></div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Applications</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="apps-grid">
+                <!-- Universal Calculator App Card -->
+                <div class="app-card">
+                    <div class="app-card-header">
+                        <div class="app-icon" style="background: transparent; box-shadow: none;">
+                            <img src="./universal-calculator/images/App-Icon.png" alt="Universal Calculator Icon" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px; box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);">
+                        </div>
+                        <div class="app-status">Available</div>
+                    </div>
+                    <div class="app-card-body">
+                        <h3>Universal Calculator</h3>
+                        <p class="app-tags">
+                            <span class="tag">Productivity</span>
+                            <span class="tag">Utility</span>
+                        </p>
+                        <p class="app-desc">A fast, simple, and powerful calculator for Android featuring scientific calculations and unit conversions in one clean interface.</p>
+                    </div>
+                    <div class="app-card-footer">
+                        <a href="./universal-calculator/index.html" class="btn btn-outline">
+                            View Details <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coming Soon Placeholder -->
+                <div class="app-card placeholder-card">
+                    <div class="app-card-header">
+                        <div class="app-icon placeholder-icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <div class="app-status in-dev">In Development</div>
+                    </div>
+                    <div class="app-card-body">
+                        <h3>Secret Project</h3>
+                        <p class="app-tags">
+                            <span class="tag placeholder-tag">Unknown</span>
+                        </p>
+                        <p class="app-desc">I am constantly working on new ideas. My next application is currently in the design and development phase.</p>
+                    </div>
+                    <div class="app-card-footer">
+                        <button class="btn btn-outline disabled">Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Nikhil<span class="highlight">Apps</span></h3>
+                <p>Creating digital experiences for Android.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:your.email@example.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Nikhil Apps. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
