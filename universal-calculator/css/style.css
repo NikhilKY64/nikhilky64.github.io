@@ -1,11 +1,11 @@
 :root {
     /* Color Palette */
-    --clr-bg: #fafafa;
-    --clr-surface: #ffffff;
-    --clr-text-main: #111827;
-    --clr-text-muted: #6b7280;
-    --clr-primary: #2563eb;
-    --clr-primary-hover: #1d4ed8;
+    --clr-bg: #0f172a;
+    --clr-surface: #1e293b;
+    --clr-text-main: #ffffff;
+    --clr-text-muted: #94a3b8;
+    --clr-primary: #3b82f6;
+    --clr-primary-hover: #2563eb;
     
     /* Feature Icon Colors */
     --clr-feature-1: #ef4444; /* red */
@@ -179,7 +179,7 @@ h1, h2, h3, h4 {
     font-weight: 800;
     letter-spacing: -1.5px;
     margin-bottom: 1rem;
-    color: #111827;
+    color: var(--clr-text-main);
 }
 
 .hero-tagline {
@@ -242,7 +242,7 @@ h1, h2, h3, h4 {
     padding: 2.5rem 2rem;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(255,255,255,0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -259,7 +259,7 @@ h1, h2, h3, h4 {
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    color: white;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
@@ -360,8 +360,8 @@ h1, h2, h3, h4 {
 
 /* ========== FOOTER ========== */
 .site-footer {
-    background-color: #ffffff;
-    border-top: 1px solid #f3f4f6;
+    background-color: var(--clr-bg);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 4rem 0 2rem;
 }
 
@@ -418,7 +418,7 @@ h1, h2, h3, h4 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #f3f4f6;
+    background-color: rgba(255, 255, 255, 0.1);
     color: var(--clr-text-main);
     text-decoration: none;
     font-size: 1.2rem;
