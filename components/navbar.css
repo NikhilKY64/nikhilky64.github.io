@@ -1,0 +1,51 @@
+/* Shared Navbar Styles */
+.navbar {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(11, 17, 32, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: 'Outfit', sans-serif;
+}
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-logo a {
+    color: white;
+    text-decoration: none;
+}
+.nav-logo span.highlight {
+    color: #3b82f6; /* var(--primary-color) from main site */
+}
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+.nav-links a {
+    color: #94a3b8; /* var(--text-muted) from main site */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: white; /* var(--text-main) from main site */
+}
+
+/* Specific Adjustments for App Sub-Pages */
+body {
+    /* Prevent content from hiding behind fixed navbar */
+    padding-top: 80px; 
+}
