@@ -182,7 +182,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 700; }
     gap: 1rem;
 }
 .dev-card {
-    background: rgba(30, 41, 59, 0.7);
+    background: var(--card-color);
     border: 1px solid var(--border-color);
     padding: 40px;
     border-radius: 24px;
@@ -226,7 +226,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 700; }
 /* Portfolio Section */
 .portfolio {
     padding: 6rem 0;
-    background-color: #0f172a;
+    background-color: var(--bg-color);
 }
 .section-title {
     text-align: center;
@@ -311,7 +311,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 700; }
 .tag {
     font-size: 0.8rem;
     color: var(--text-muted);
-    background: rgba(255,255,255,0.05);
+    background: var(--border-color);
     padding: 4px 10px;
     border-radius: 6px;
 }
@@ -332,7 +332,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 700; }
 /* Footer */
 .footer {
     padding: 4rem 0 2rem;
-    background-color: #0b1120;
+    background-color: var(--bg-color);
     border-top: 1px solid var(--border-color);
 }
 .footer-content {
@@ -365,7 +365,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 700; }
     color: var(--text-muted);
     font-size: 0.9rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid var(--border-color);
 }
 
 /* Responsive */
