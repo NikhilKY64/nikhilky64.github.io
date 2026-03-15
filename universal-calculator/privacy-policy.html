@@ -3,93 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Universal Calculator. We respect your privacy and do not collect data.">
     <title>Privacy Policy - Universal Calculator</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/App-Icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
     <style>
+        .privacy-page { padding: 4rem 0; }
         .privacy-content {
-            padding: 100px 24px 60px;
+            background-color: var(--clr-surface);
+            padding: 3rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
             max-width: 800px;
             margin: 0 auto;
         }
-        .privacy-content h1 {
-            font-size: 3rem;
+        .privacy-header { margin-bottom: 2.5rem; }
+        .privacy-header h1 {
+            color: var(--clr-primary);
+            font-size: 2.5rem;
             margin-bottom: 0.5rem;
-            color: var(--primary-color);
         }
-        .privacy-content h2 {
-            font-size: 1.8rem;
+        .privacy-header p {
+            color: var(--clr-text-muted);
+            font-family: var(--ff-body);
+        }
+        .privacy-body h2 {
+            font-size: 1.5rem;
             margin-top: 2.5rem;
             margin-bottom: 1rem;
-            text-align: left;
-            border-bottom: 1px solid var(--border-color);
             padding-bottom: 0.5rem;
+            border-bottom: 1px solid #f3f4f6;
         }
-        .privacy-content p, .privacy-content ul {
-            font-size: 1.1rem;
-            color: var(--text-muted);
-            margin-bottom: 1.5rem;
-            line-height: 1.8;
+        .privacy-body p, .privacy-body ul {
+            margin-bottom: 1.25rem;
+            color: var(--clr-text-muted);
         }
-        .privacy-content ul {
-            padding-left: 1.5rem;
-        }
-        .privacy-content li {
-            margin-bottom: 0.5rem;
-        }
+        .privacy-body ul { padding-left: 1.5rem; }
+        .privacy-body li { margin-bottom: 0.5rem; }
+        .privacy-body strong { color: var(--clr-text-main); }
         .back-link {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            color: var(--text-main);
+            gap: 0.5rem;
             text-decoration: none;
-            margin-bottom: 2rem;
+            color: var(--clr-primary);
             font-weight: 600;
-            transition: color 0.3s;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
         }
-        .back-link:hover {
-            color: var(--primary-color);
-        }
+        .back-link:hover { color: var(--clr-primary-hover); }
     </style>
 </head>
 <body>
-    <div class="container privacy-content">
-        <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
-        
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated: March 14, 2026</strong></p>
 
-        <p>I, Nikhil, built the Universal Calculator app as a Free app. This SERVICE is provided by me at no cost and is intended for use as is.</p>
-        
-        <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
+    <main class="privacy-page section">
+        <div class="container">
+            <div class="privacy-content">
+                <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Homepage</a>
+                
+                <header class="privacy-header">
+                    <h1>Privacy Policy</h1>
+                    <p>Last Updated: March 14, 2026</p>
+                </header>
+                
+                <div class="privacy-body">
+                    <p>I, Nikhil, built the Universal Calculator app as a Free app. This SERVICE is provided by me at no cost and is intended for use as is.</p>
+                    <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
 
-        <h2>1. Information Collection and Use</h2>
-        <p>Universal Calculator is an offline, standalone application. We deeply respect your privacy. <strong>We do not collect, store, or share any personal information from our users.</strong> The app does not require you to create an account, nor does it ask for any personally identifiable information (such as your name, email address, or phone number).</p>
+                    <h2>1. Information Collection and Use</h2>
+                    <p>Universal Calculator is an offline, standalone application. We deeply respect your privacy. <strong>We do not collect, store, or share any personal information from our users.</strong> The app does not require you to create an account, nor does it ask for any personally identifiable information (such as your name, email address, or phone number).</p>
 
-        <h2>2. Data Processing and Storage</h2>
-        <p>All calculations, history, and theme preferences entered into Universal Calculator are processed and stored locally on your device. We do not have access to this data, and it is never transmitted to us or any third-party servers.</p>
+                    <h2>2. Data Processing and Storage</h2>
+                    <p>All calculations, history, and theme preferences entered into Universal Calculator are processed and stored locally on your device. We do not have access to this data, and it is never transmitted to us or any third-party servers.</p>
 
-        <h2>3. Third-Party Services</h2>
-        <p>The app may display third-party advertisements (such as Google AdMob) to support development. These third-party ad networks may use cookies or similar technologies to show relevant ads. However, Universal Calculator itself explicitly does not collect or send data for this purpose.</p>
+                    <h2>3. Third-Party Services</h2>
+                    <p>The app may display third-party advertisements (such as Google AdMob) to support development. These third-party ad networks may use cookies or similar technologies to show relevant ads. However, Universal Calculator itself explicitly does not collect or send data for this purpose.</p>
 
-        <h2>4. App Permissions</h2>
-        <p>Universal Calculator requires absolutely minimal permissions. Any listed permission in the Google Play Store is strictly for technical necessities (e.g., displaying the screen or controlling haptic feedback/vibration), not for data collection.</p>
+                    <h2>4. App Permissions</h2>
+                    <p>Universal Calculator requires absolutely minimal permissions. Any listed permission in the Google Play Store is strictly for technical necessities (e.g., displaying the screen or controlling haptic feedback/vibration), not for data collection.</p>
 
-        <h2>5. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+                    <h2>5. Changes to This Privacy Policy</h2>
+                    <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
 
-        <h2>6. Contact Us</h2>
-        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact me at <strong><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nikhilapps0@gmail.com" target="_blank" style="color: var(--primary-color); text-decoration: none;">nikhilapps0@gmail.com</a></strong>.</p>
-    </div>
+                    <h2>6. Contact Us</h2>
+                    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact me at <strong><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nikhilapps0@gmail.com" target="_blank" style="color: var(--clr-primary); text-decoration: none;">nikhilapps0@gmail.com</a></strong>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-    <footer class="footer">
-        <div class="container text-center" style="text-align: center;">
-            <p class="copyright">Universal Calculator &copy; 2026</p>
-            <p class="trademark">Android is a trademark of Google LLC.</p>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>Universal Calculator</h3>
+                <p>Engineered beautifully for Android.</p>
+            </div>
+            
+            <div class="footer-links">
+                <nav class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="mailto:nikhilapps0@gmail.com" target="_blank">Support</a>
+                </nav>
+                <div class="footer-socials">
+                    <a href="https://github.com/NikhilKY64/Universal_Calculator_App" target="_blank" aria-label="GitHub Repository">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Developed by <a href="https://github.com/NikhilKY64" target="_blank">Nikhil</a>. Android is a trademark of Google LLC.</p>
         </div>
     </footer>
-    <!-- Scripts -->
-    <script src="../script.js"></script>
+
 </body>
 </html>
