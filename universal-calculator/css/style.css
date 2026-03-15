@@ -1,3 +1,10 @@
+body.light-mode {
+    --clr-bg: #f8fafc;
+    --clr-surface: #ffffff;
+    --clr-text-main: #0f172a;
+    --clr-text-muted: #475569;
+}
+
 :root {
     /* Color Palette */
     --clr-bg: #0f172a;
